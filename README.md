@@ -192,7 +192,7 @@ Inden du ændrer noget i koden, skal du lave en måling af sitets nuværende per
 7. Gem gerne et screenshot af resultatet.
 8. Gentag målingen på de øvrige sider.
 
-Du skal som minimum registrere performance-resultatet før optimering.
+Du skal som minimum registrere performance-resultatet før optimering. Performance score er 75
 
 ## Forkert
 
