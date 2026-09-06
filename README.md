@@ -488,7 +488,7 @@ Eksemplet ovenfor er kun et eksempel. Du skal selv skrive en alt-tekst, der pass
 
 Du skal selv kunne forklare, hvorfor du har valgt den enkelte alt-tekst.
 
----
+Billede fra et Super Mario-spil: Mario rider på Yoshi og hopper mellem klipper i et skovlandskab, mens en ildkugle ruller nedenunder og mønter svæver i luften
 
 # Opgave 6 – Undersøg sidernes headingstruktur med HeadingsMap
 
