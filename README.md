@@ -1235,7 +1235,7 @@ Du kan eksempelvis bruge denne tabel:
 
 | Side | Performance før | Performance efter | Accessibility efter |
 |---|---:|---:|---:|
-| `index.html` |  |  |  |
+| `index.html` |  | 75 | 100 |
 | `news.html` |  |  |  |
 | `games.html` |  |  |  |
 | `contact.html` |  |  |  |
@@ -1245,7 +1245,7 @@ Skriv derefter kort:
 1. Hvilke ændringer gav den største performanceforbedring?
 2. Hvilke accessibility-problemer fandt du?
 3. Hvilke problemer kunne Lighthouse finde?
-4. Hvilke problemer fandt WAVE?
+4. Hvilke problemer fandt WAVE? 
 5. Hvilke problemer krævede HeadingsMap eller manuel kontrol?
 6. Hvad har du lært om sammenhængen mellem performance og accessibility?
 
