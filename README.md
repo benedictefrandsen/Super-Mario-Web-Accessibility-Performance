@@ -1243,11 +1243,19 @@ Du kan eksempelvis bruge denne tabel:
 Skriv derefter kort:
 
 1. Hvilke ændringer gav den største performanceforbedring?
+konvertering af jpg billeder til WebP
 2. Hvilke accessibility-problemer fandt du?
+Manglende alt-tekst på billeder
+Dårlig farvekontrast mellem tekst og baggrund
+Formularfelter uden labels
+Forkert heading-struktur
 3. Hvilke problemer kunne Lighthouse finde?
+manglende alt-tekster, dårlig kontrast, forkert HTML-struktur
 4. Hvilke problemer fandt WAVE? 
+Dårlig kontrast ift tekst og baggrundsfarve
 5. Hvilke problemer krævede HeadingsMap eller manuel kontrol?
 6. Hvad har du lært om sammenhængen mellem performance og accessibility?
+Performance og accessibility er ikke det samme, men de kan forbedre hinanden. Når man bygger en simpel, hurtig og korrekt struktureret hjemmeside, får man ofte både bedre performance og bedre tilgængelighed.
 
 ---
 
