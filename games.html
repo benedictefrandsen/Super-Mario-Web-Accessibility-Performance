@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -50,7 +51,9 @@
         <h2>Join Today!</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dignissimos minus voluptatem.</p>
         <form>
-            <input type="email" name="email" placeholder="Type email & hit enter" required>
+            <label for="newsletter-email">Email address</label>
+            <input type="email" id="newsletter-email" name="email" autocomplete="email" placeholder="Type email & hit enter" required>
+            <button type="submit">Join the club</button>
         </form>
     </section>
     <footer>

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -36,10 +37,14 @@
         <article>
             <h2>Get in touch with me, Mario</h2>
             <form>
-                <input type="text" name="fname" placeholder="Type Firstname" required>
-                <input type="text" name="lname" placeholder="Type Lastname" required><br />
-                <input type="email" name="mail" placeholder="Type Email" required>
-                <input list="countries" name="country" id="country">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" name="fname" autocomplete="given-name" placeholder="Type Firstname" required>
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" name="lname" autocomplete="family-name" placeholder="Type Lastname" required><br />
+                <label for="mail">Email address</label>
+                <input type="email" id="mail" name="mail" autocomplete="email" placeholder="Type Email" required>
+                <label for="country">Country</label>
+                <input list="countries" name="country" id="country" autocomplete="country-name">
                 <datalist id="countries">
                     <option value="Albania">
                     <option value="Austria">
@@ -76,7 +81,8 @@
                     <option value="United Kingdom">
                 </datalist>
                 <br />
-                <textarea name="question" rows="4" cols="40" placeholder="Ask a question...">Ask a question</textarea>
+                <label for="question">Your question</label>
+                <textarea id="question" name="question" rows="4" cols="40" placeholder="Ask a question...">Ask a question</textarea>
                 <input type="submit" value="Get in Touch">
             </form>
         </article>
@@ -89,7 +95,9 @@
         <h2>Contact Us today!</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis dignissimos minus voluptatem.</p>
         <form>
-            <input type="email" name="email" placeholder="Type email & hit enter" required>
+            <label for="newsletter-email">Email address</label>
+            <input type="email" id="newsletter-email" name="email" autocomplete="email" placeholder="Type email & hit enter" required>
+            <button type="submit">Join the club</button>
         </form>
 
     </section>
