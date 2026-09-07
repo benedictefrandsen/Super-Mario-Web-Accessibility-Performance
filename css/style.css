@@ -7,7 +7,7 @@ p{
   font-size: 18px;
 }
 header{
-  background-color: #F63232;
+  background-color: #C41E1E;
   padding: 20px 0;
   text-align: center;
   position: fixed;
@@ -30,7 +30,7 @@ header .brand{
   width: 100%;
 }
 .banner .welcome{
-  background:#FEB614;
+  background:#8A5300;
   color: white;
   padding: 30px;
   font-size: 60px;
@@ -197,7 +197,7 @@ form button[type="submit"]:focus {
     outline: none
 }
 footer{
-  background: #F63232;
+  background: #C41E1E;
   color: white;
   padding: 10px;
   text-align: center;
